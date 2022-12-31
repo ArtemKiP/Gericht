@@ -1,0 +1,73 @@
+.menu{
+  padding: 119px 0 147px;
+  &-cards{
+    display: flex;
+    align-items: center;
+    column-gap: 180px;
+  }
+ &-subtitle{
+   font-family: 'Cormorant Upright', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 23px;
+   letter-spacing: 0.04em;
+   text-transform: capitalize;
+   font-feature-settings: 'tnum' on, 'lnum' on;
+   color: #FFFFFF;
+ }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    margin: 8px 0 32px;
+  }
+  &-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 32px;
+  }
+  .btn{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0B08;
+    padding: 8px 32px;
+    background: #DCCA87;
+    cursor: pointer;
+  }
+  &-right{
+    position: relative;
+
+    &:before{
+      position: absolute;
+      z-index: -1;
+      content: '';
+      height: 435px;
+      width: 435px;
+     bottom: -24px;
+      left: -24px;
+      background: #DCCA87;
+    }
+    &:after{
+      position: absolute;
+      z-index: -1;
+      content: '';
+      height: 435px;
+      width: 435px;
+     top: -24px;
+      right: -24px;
+      background: #DCCA87;
+    }
+  }
+}

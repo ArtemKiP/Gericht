@@ -1,0 +1,85 @@
+.chef{
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+&-cards{
+  display: flex;
+  column-gap: 120px;
+  align-items: center;
+}
+  &-left{
+    position: relative;
+    z-index: 100;
+    &:before{
+      content: '';
+      height: 435px;
+      width: 435px;
+      top: -24px;
+      right: -24px;
+      position: absolute;
+      z-index: -1;
+      background: #DCCA87;
+    }
+    &:after{
+      content: '';
+      height: 435px;
+      width: 435px;
+      bottom: -24px;
+      left: -24px;
+      position: absolute;
+      z-index: -1;
+      background: #DCCA87;
+    }
+  }
+&-subtitle{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 8px 0 64px;
+  }
+  &-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+  }
+  &-name{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 64px 0 8px;
+  }
+  &-info{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin-bottom: 64px;
+  }
+
+}

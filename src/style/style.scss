@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+.container-big{
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.container-small{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+body{
+  background: #0C0C0C ;
+}
+
+@import "header";
+@import "menu";
+@import "about";
+@import "book";
+@import "bar";
+@import "special";
+@import "chef";
+@import "customer";
+@import "video";
+@import "awards";
+@import "blog";
+@import "gallery";
+@import "news";
+@import "footer";
+@import "barHome";
+@import "drinks";
+@import "poison";
+@import "happy";
+@import "contact";

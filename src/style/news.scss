@@ -1,0 +1,93 @@
+.news{
+  height: 400px;
+  position: relative;
+  &:before{
+    content: '';
+    height: 146px;
+    width: 146.00042724609375px;
+    background: url("../images/book/icon.png") center/cover no-repeat;
+    position: absolute;
+    left: 80px;
+    top: -35px;
+    z-index: 1000;
+  }
+&-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 442px;
+  width: 1300px;
+  padding: 64px 262px 64px 262px;
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 100px;
+
+  &-subtitle{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  &-vector{
+    height: 9px;
+    width: 40px;
+  }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin: 8px 0 24px;
+  }
+  &-text{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+  }
+  &-input{
+    height: 60px;
+    width: 635px;
+    padding: 16px 0 16px 19px;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+    background: transparent;
+    border: 1px solid #F5EFDB;
+    outline: none;
+  }
+  &-btn{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 8px 32px;
+    background: #DCCA87;
+    cursor: pointer;
+    border: none;
+
+  }
+}
+}

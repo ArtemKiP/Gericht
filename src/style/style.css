@@ -1,0 +1,1612 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.container-big {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body {
+  background: #0C0C0C;
+}
+
+.header {
+  background: #0C0C0C;
+  padding-top: 32px;
+  color: white;
+}
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  position: relative;
+}
+.header-right:before {
+  content: "";
+  width: 1px;
+  height: 57px;
+  background: white;
+  position: absolute;
+  left: 60%;
+}
+.header-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.header-item {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+.header-link, .header-book {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.menu {
+  padding: 119px 0 147px;
+}
+.menu-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 180px;
+     -moz-column-gap: 180px;
+          column-gap: 180px;
+}
+.menu-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.menu-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  margin: 8px 0 32px;
+}
+.menu-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 32px;
+}
+.menu .btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0B08;
+  padding: 8px 32px;
+  background: #DCCA87;
+  cursor: pointer;
+}
+.menu-right {
+  position: relative;
+}
+.menu-right:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 435px;
+  width: 435px;
+  bottom: -24px;
+  left: -24px;
+  background: #DCCA87;
+}
+.menu-right:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 435px;
+  width: 435px;
+  top: -24px;
+  right: -24px;
+  background: #DCCA87;
+}
+
+.about {
+  padding: 120px 0 136px;
+  position: relative;
+  z-index: 100;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.about-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 80px;
+     -moz-column-gap: 80px;
+          column-gap: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.about-title {
+  text-align: right;
+}
+.about .title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+}
+.about-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: right;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin: 32px 0;
+}
+.about-vector {
+  margin-top: 8px;
+  height: 9px;
+  width: 40px;
+}
+.about-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  cursor: pointer;
+  border: none;
+}
+.about-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  z-index: 100;
+}
+.about-images {
+  position: relative;
+}
+.about-card {
+  position: relative;
+}
+.about-knife {
+  position: relative;
+  z-index: 100;
+}
+.about-g {
+  position: absolute;
+  z-index: -323;
+  top: -90px;
+  left: 30px;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+}
+
+.book {
+  padding: 157px 0 157px;
+  position: relative;
+}
+.book:before {
+  content: "";
+  height: 146px;
+  width: 146.0004272461px;
+  background: url("../images/book/icon.png") center/cover no-repeat;
+  position: absolute;
+  right: 80px;
+  top: -25px;
+  z-index: 1000;
+}
+.book-form {
+  width: 1364px;
+  padding: 48px 0 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  -webkit-box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+}
+.book-form-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.book-form-title {
+  margin: 25px 0 64px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+}
+.book-form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.book-form-select {
+  height: 60px;
+  width: 412px;
+  background: transparent;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #AAAAAA;
+}
+.book-form-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  margin-top: 64px;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  position: relative;
+  padding: 293px 0 262px;
+  background: url("../images/bar/bg.jpg") center/cover no-repeat;
+}
+.bar:before {
+  content: "";
+  height: 146px;
+  width: 146.0004272461px;
+  background: url("../images/book/icon.png") center/cover no-repeat;
+  position: absolute;
+  left: 180px;
+  top: 10px;
+}
+.bar-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-top: 64px;
+  cursor: pointer;
+}
+.bar-title:hover {
+  text-decoration: underline;
+}
+
+.special {
+  padding: 152px 0 152px;
+}
+.special .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.special-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.special-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.special-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  margin: 8px 0 64px;
+}
+.special-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.special-menu-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+.special-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 183px;
+     -moz-column-gap: 183px;
+          column-gap: 183px;
+}
+.special-info-price {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  position: relative;
+}
+.special-info-price:before {
+  content: "";
+  width: 119px;
+  height: 1px;
+  background: #FAFAFA;
+  position: absolute;
+  left: -151px;
+  top: 50%;
+}
+.special-info-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.special-info-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-bottom: 8px;
+}
+.special-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 42px;
+}
+
+.chef {
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.chef-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 120px;
+     -moz-column-gap: 120px;
+          column-gap: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.chef-left {
+  position: relative;
+  z-index: 100;
+}
+.chef-left:before {
+  content: "";
+  height: 435px;
+  width: 435px;
+  top: -24px;
+  right: -24px;
+  position: absolute;
+  z-index: -1;
+  background: #DCCA87;
+}
+.chef-left:after {
+  content: "";
+  height: 435px;
+  width: 435px;
+  bottom: -24px;
+  left: -24px;
+  position: absolute;
+  z-index: -1;
+  background: #DCCA87;
+}
+.chef-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.chef-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 8px 0 64px;
+}
+.chef-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.chef-name {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 64px 0 8px;
+}
+.chef-info {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 64px;
+}
+
+.customer {
+  padding: 152px 0 152px;
+  position: relative;
+}
+.customer:before {
+  height: 146px;
+  width: 146.0004272461px;
+  z-index: 1000;
+  content: "";
+  position: absolute;
+  right: 80px;
+  top: -30px;
+  background: url("../images/book/icon.png") center/cover no-repeat;
+}
+.customer .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.customer-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.customer-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 8px 0 64px;
+}
+.customer-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 64px;
+}
+.customer-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  width: calc(50% - 16px);
+}
+.customer-right-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.customer-right-name {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 16px 0 4px;
+}
+.customer-right-info {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #F5EFDB;
+}
+
+.video {
+  padding: 147px 0 470px;
+  background: url("../images/video/Video.png") center/cover no-repeat;
+}
+
+.awards {
+  padding: 128px 0 200px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.awards-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 183px;
+     -moz-column-gap: 183px;
+          column-gap: 183px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.awards-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 64px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.awards-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.awards-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-top: 8px;
+}
+.awards-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+.awards-bottom-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.awards-bottom-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-bottom: 8px;
+}
+.awards-bottom-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.awards-bottom-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.awards-bottom-img {
+  margin-right: 32px;
+}
+.awards-right {
+  position: relative;
+}
+.awards-right:before {
+  content: "";
+  background: url("../images/awards/G (1).png") center/cover no-repeat;
+  position: absolute;
+  left: -72px;
+  bottom: 0;
+  height: 379px;
+  width: 360px;
+}
+
+.blog {
+  padding: 152px 0 152px;
+  position: relative;
+}
+.blog:before {
+  content: "";
+  position: absolute;
+  right: 90px;
+  bottom: 50px;
+  background: url("../images/book/icon.png") center/cover no-repeat;
+  height: 146px;
+  width: 146.0003967285px;
+}
+.blog-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.blog-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+.blog-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.blog-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.blog-card-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog-card-date {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #FAFAFA;
+  margin: 24px 0 32px;
+}
+.blog-card-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-bottom: 32px;
+}
+.blog-card-title:hover {
+  text-decoration: underline;
+}
+.blog-card-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 32px;
+}
+.blog-card-link {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #DCCA87;
+}
+.blog-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  margin-top: 64px;
+  cursor: pointer;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery {
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.gallery-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 64px;
+     -moz-column-gap: 64px;
+          column-gap: 64px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gallery-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.gallery-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+}
+.gallery-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin: 24px 0 24px;
+}
+.gallery-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  background: #DCCA87;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+.gallery-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.gallery-img {
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.news {
+  height: 400px;
+  position: relative;
+}
+.news:before {
+  content: "";
+  height: 146px;
+  width: 146.0004272461px;
+  background: url("../images/book/icon.png") center/cover no-repeat;
+  position: absolute;
+  left: 80px;
+  top: -35px;
+  z-index: 1000;
+}
+.news-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 442px;
+  width: 1300px;
+  padding: 64px 262px 64px 262px;
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  -webkit-box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+          box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 100px;
+}
+.news-form-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.news-form-vector {
+  height: 9px;
+  width: 40px;
+}
+.news-form-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 8px 0 24px;
+}
+.news-form-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 64px;
+}
+.news-form-input {
+  height: 60px;
+  width: 635px;
+  padding: 16px 0 16px 19px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #AAAAAA;
+  background: transparent;
+  border: 1px solid #F5EFDB;
+  outline: none;
+}
+.news-form-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  cursor: pointer;
+  border: none;
+}
+
+.footer {
+  padding-bottom: 144px;
+  padding-top: 300px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.footer-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+}
+.footer-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-left-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #F5EFDB;
+}
+.footer-left-street {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin: 24px 0 8px;
+}
+.footer-left-phone {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.footer-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-center-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #DCCA87;
+  text-align: center;
+}
+.footer-center-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin: 32px 0 16px;
+}
+.footer-center-rights {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.footer-icons {
+  margin-top: 19px;
+  margin-bottom: 83px;
+}
+.footer-icon {
+  color: white;
+  font-size: 34px;
+}
+.footer-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer-right-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #F5EFDB;
+  margin-bottom: 24px;
+}
+.footer-right-days {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-top: 8px;
+}
+
+.barHome {
+  padding: 47px 0 85px;
+  height: calc(100vh - 84.49px);
+  position: relative;
+  text-align: center;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.barHome-img {
+  height: calc(100vh - 259px);
+  width: 634px;
+  margin-bottom: 32px;
+}
+.barHome-title {
+  position: absolute;
+  top: 319px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 181px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  white-space: nowrap;
+}
+.barHome-scroll {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #DCCA87;
+  position: relative;
+}
+.barHome-scroll:before {
+  content: "";
+  height: 61px;
+  width: 1px;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: -75px;
+}
+
+.drinks {
+  padding: 128px 0 79px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.drinks-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 143px;
+     -moz-column-gap: 143px;
+          column-gap: 143px;
+}
+.drinks-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.drinks-right-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  margin-top: 40px;
+}
+.drinks-right-vector {
+  height: 9px;
+  width: 40px;
+  left: 40px;
+}
+.drinks-right-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 8px 0 32px;
+}
+.drinks-right-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 32px;
+}
+.drinks-right-btn {
+  padding: 8px 32px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  background: #DCCA87;
+  cursor: pointer;
+}
+
+.poison {
+  padding: 200px 0 152px;
+}
+.poison-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.poison-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  margin: 8px 0 64px;
+}
+.poison-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 34px;
+     -moz-column-gap: 34px;
+          column-gap: 34px;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.happy {
+  padding: 330px 0 330px;
+  background: url("../images/happy/1.png") center/cover no-repeat;
+}
+.happy-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 128px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin-bottom: 32px;
+}
+.happy-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.contact {
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+}
+.contact-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 143px;
+     -moz-column-gap: 143px;
+          column-gap: 143px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contact-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-left-vector {
+  height: 9px;
+  width: 40px;
+}
+.contact-left-subtitle {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.contact-left-title {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #DCCA87;
+  margin: 8px 0 64px;
+}
+.contact-left-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+}
+.contact-left-hours {
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #DCCA87;
+  margin: 32px 0 16px;
+}
+.contact-left-date {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.contact-left-btn {
+  padding: 8px 32px;
+  font-family: "Cormorant Upright", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  margin-top: 64px;
+  background: #DCCA87;
+  border: none;
+  cursor: pointer;
+}
+.contact-right {
+  position: relative;
+  z-index: 10;
+}
+.contact-right:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 435px;
+  width: 435px;
+  bottom: -24px;
+  left: -24px;
+  background: #DCCA87;
+}
+.contact-right:after {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  height: 435px;
+  width: 435px;
+  top: -24px;
+  right: -24px;
+  background: #DCCA87;
+}

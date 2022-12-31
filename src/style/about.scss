@@ -1,0 +1,81 @@
+.about{
+  padding:120px 0 136px;
+  position: relative;
+  z-index: 100;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+&-cards{
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  justify-content: center;
+
+}
+  &-title{
+    text-align: right;
+  }
+
+  .title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+  }
+  &-text{
+    font-family: 'Open Sans' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin: 32px 0;
+  }
+  &-vector{
+    margin-top: 8px;
+    height: 9px;
+    width: 40px;
+
+  }
+&-btn{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  cursor: pointer;
+  border: none;
+}
+  &-column{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    z-index: 100;
+  }
+  &-images{
+    position: relative;
+  }
+  &-card{
+    position: relative;
+  }
+  &-knife{
+    position: relative;
+    z-index: 100;
+  }
+  &-g{
+    position: absolute;
+    z-index: -323;
+    top: -90px;
+    left: 30px;
+    transform: translate(-50%, 50%);
+  }
+}

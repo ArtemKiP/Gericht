@@ -1,0 +1,30 @@
+.bar{
+  position: relative;
+  padding: 293px 0 262px;
+  background: url("../images/bar/bg.jpg") center/cover no-repeat;
+  &:before{
+      content: '';
+    height: 146px;
+    width: 146.00042724609375px;
+   background: url("../images/book/icon.png") center/cover no-repeat;
+    position: absolute;
+    left: 180px;
+    top: 10px;
+  }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-top: 64px;
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
+
+    }
+  }
+}

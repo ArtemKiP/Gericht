@@ -1,0 +1,48 @@
+.barHome{
+  padding: 47px 0 85px;
+  height: calc(100vh - 84.49px);
+  position: relative;
+  text-align: center;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+  &-img{
+    height: calc(100vh - 259px);
+    width: 634px;
+    margin-bottom: 32px;
+
+  }
+  &-title{
+    position: absolute;
+    top: 319px;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 181px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transform: translateX(-50%);
+    left: 50%;
+    white-space: nowrap;
+  }
+  &-scroll{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #DCCA87;
+    position: relative;
+    &:before{
+      content: '';
+      height: 61px;
+      width: 1px;
+      background: white;
+      position: absolute;
+      left: 50%;
+      top: -75px;
+    }
+
+  }
+
+}

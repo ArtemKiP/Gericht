@@ -1,0 +1,116 @@
+.footer{
+padding-bottom: 144px;
+  padding-top: 300px;
+background: url("../images/about/BG.jpg") center/cover no-repeat;
+
+  &-cards{
+    display: flex;
+    column-gap: 100px;
+
+  }
+  &-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-title{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #F5EFDB;
+    }
+    &-street{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin: 24px 0 8px;
+    }
+    &-phone{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+
+    }
+  }
+  &-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-title{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #DCCA87;
+      text-align: center;
+    }
+    &-text{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      margin: 32px 0 16px;
+    }
+    &-rights{
+      font-family: 'Open Sans',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+  }
+  &-icons{
+    margin-top: 19px;
+    margin-bottom: 83px;
+  }
+  &-icon{
+    color: white;
+    font-size: 34px;
+  }
+  &-right{
+    display: flex;
+    flex-direction: column;
+    &-title{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #F5EFDB;
+      margin-bottom: 24px;
+    }
+    &-days{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+      margin-top: 8px;
+    }
+  }
+
+
+}

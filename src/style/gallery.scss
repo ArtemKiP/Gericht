@@ -1,0 +1,61 @@
+.gallery{
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+&-cards{
+  display: flex;
+  column-gap: 64px;
+  align-items: center;
+}
+  &-subtitle{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+  }
+  &-text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    margin: 24px 0 24px;
+  }
+  &-btn{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    background: #DCCA87;
+    padding: 8px 32px;
+    cursor: pointer;
+  }
+  &-right{
+    display: flex;
+    column-gap: 32px;
+  }
+  &-img{
+    position: relative;
+    transition: 0.5s;
+    z-index: 10;
+
+  }
+}

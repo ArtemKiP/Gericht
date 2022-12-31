@@ -1,0 +1,53 @@
+.header{
+  background: #0C0C0C;
+  padding-top: 32px;
+  color: white;
+  &-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-menu{
+    display: flex;
+    column-gap: 32px;
+  }
+  &-right{
+    display: flex;
+    column-gap: 50px;
+    position: relative;
+    &:before{
+      content: '';
+      width: 1px;
+      height: 57px;
+      background: white;
+      position: absolute;
+      left: 60%;
+    }
+  }
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+&-item{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+  &-link , &-book{
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+}

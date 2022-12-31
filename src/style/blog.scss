@@ -1,0 +1,109 @@
+.blog{
+  padding: 152px 0 152px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    right: 90px;
+    bottom: 50px;
+    background: url("../images/book/icon.png") center/cover no-repeat;
+    height: 146px;
+    width: 146.00039672851562px;
+  }
+&-subtitle{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+  &-title{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+    margin-top: 8px;
+    margin-bottom: 64px;
+  }
+  &-cards{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+  }
+  &-card{
+    display: flex;
+    flex-direction: column;
+    &-row{
+      display: flex;
+      justify-content: space-between;
+    }
+    &-date{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #FAFAFA;
+      margin: 24px 0 32px;
+    }
+    &-title{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      margin-bottom: 32px;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+&-text{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #AAAAAA;
+  margin-bottom: 32px;
+}
+    &-link{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #DCCA87;
+
+    }
+  }
+  &-btn{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #0C0C0C;
+    padding: 8px 32px;
+    background: #DCCA87;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

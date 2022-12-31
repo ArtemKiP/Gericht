@@ -1,0 +1,79 @@
+.book{
+  padding: 157px 0 157px;
+  position: relative;
+  &:before{
+    content: '';
+    height: 146px;
+    width: 146.00042724609375px;
+    background: url("../images/book/icon.png") center/cover no-repeat;
+    position: absolute;
+    right: 80px;
+    top: -25px;
+    z-index: 1000;
+  }
+&-form{
+  width: 1364px;
+  padding: 48px 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0C0C0C;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  &-subtitle{
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  &-title{
+    margin: 25px 0 64px;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+  }
+  &-row{
+    display: flex;
+    column-gap: 32px;
+  }
+  &-select{
+    height: 60px;
+    width: 412px;
+    background: transparent;
+    font-family: 'Cormorant Upright', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+  }
+&-btn{
+  font-family: 'Cormorant Upright', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #0C0C0C;
+  padding: 8px 32px;
+  background: #DCCA87;
+  margin-top: 64px;
+  border: none;
+  cursor: pointer;
+
+}
+}
+}

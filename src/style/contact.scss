@@ -1,0 +1,102 @@
+.contact{
+  padding: 152px 0 152px;
+  background: url("../images/about/BG.jpg") center/cover no-repeat;
+&-cards{
+  display: flex;
+  column-gap: 143px;
+  align-items: center;
+}
+  &-left{
+    display: flex;
+    flex-direction: column;
+    &-vector{
+      height: 9px;
+      width: 40px;
+    }
+    &-subtitle{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+    }
+    &-title{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 64px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #DCCA87;
+      margin: 8px 0 64px;
+    }
+    &-text{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #AAAAAA;
+    }
+    &-hours{
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 23px;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      font-feature-settings: 'tnum' on, 'lnum' on;
+      color: #DCCA87;
+      margin: 32px 0 16px;
+    }
+    &-date{
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+    }
+    &-btn{
+      padding: 8px 32px;
+      font-family: 'Cormorant Upright', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.04em;
+      color: #0C0C0C;
+      margin-top: 64px;
+      background: #DCCA87;
+      border: none;
+      cursor: pointer;
+    }
+  }
+&-right{
+  position: relative;
+  z-index: 10;
+  &:before{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    height: 435px;
+    width: 435px;
+    bottom: -24px;
+    left: -24px;
+    background: #DCCA87;
+  }
+  &:after{
+    position: absolute;
+    z-index: -1;
+    content: '';
+    height: 435px;
+    width: 435px;
+    top: -24px;
+    right: -24px;
+    background: #DCCA87;
+  }
+}
+}
